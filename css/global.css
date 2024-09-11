@@ -1,0 +1,11 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding: 20px;
+    margin: auto;
+}
