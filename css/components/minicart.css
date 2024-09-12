@@ -51,3 +51,22 @@
     padding: 16px;
     font-weight: 700;
 }
+
+@media (max-width: 768px) {
+
+    .minicart,
+    .minicart__main {
+        width: 100%;
+    }
+
+    .minicart__summary {
+        text-align: right;
+    }
+
+    .minicart__item,
+    .minicart__footer__item {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+}
